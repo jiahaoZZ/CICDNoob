@@ -1,0 +1,51 @@
+### .NET Core ###
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Oo]bj/
+
+# NuGet packages
+.nuget/
+*.nupkg
+nuget.exe
+
+# Local development cache
+/.localhistory/
+
+# Compiled files
+*.dll
+*.pdb
+*.exe
+*.cache
+
+# VS/MD cache/options
+.vs/
+.vscode/
+.suo
+*.user
+*.userosscache
+*.sln.iml
+
+# Rider IDE
+.idea/
+*.sln.iml
+
+# Test results
+TestResults/
+*.trx
+*.VisualStudioTestResults
+
+# User-specific files
+*.userprefs
+
+### Environments ###
+appsettings.Development.json  # Ignore dev config (contains secrets)
+appsettings.local.json        # Common local override pattern
+.env                          # Environment variables
+*.db                          # Local databases
+*.log                         # Log files
+
+### Misc ###
+.DS_Store
+Thumbs.db
